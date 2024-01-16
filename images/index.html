@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <!-- link css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- style tag -->
+    <style>
+        .divPapa{
+            background-color: black;
+            border-radius: 50px;
+        }
+        .divPapa ul{
+            overflow: auto;
+        }
+        .divPapa li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            
+        }
+        .divPapa li a{
+            padding: 3px 5px;
+            text-decoration: none;
+            color: white;
+        }
+        .divPapa li a:hover{
+            background-color: gray;    
+
+        }
+        .divPapa input{
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 3px;
+            
+        }
+        .search{
+            float: right;
+            padding: 15px 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- in body i use a header tag -->
+    <header>
+        <!-- div tag -->
+        <div class="divPapa">
+            <!-- ul tag -->
+            <ul>
+                <!-- li tag -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <!-- another div tag -->
+                <div class="search">
+                    <!-- input tag -->
+                    <input type="search" class="search" placeholder="search this website">
+                </div>
+            </ul>
+           
+        </div>
+    </header>
+    <!-- here i introduce my firdt sction -->
+    <section class="firstSection">
+        <!-- i use h1 tag -->
+        <h1 class="headingOne">First section</h1>
+        <!--parent div tag -->
+        <div class="container">
+            <!--child div tag -->
+        <div class="classItem">
+            <i class="fa-solid fa-user"></i>
+            <!-- p tag -->
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae tempora repellendus deleniti adipisci voluptate nostrum perspiciatis illo harum, fugiat temporibus, maiores optio odio rerum. Sunt totam nostrum sequi neque odit!</p>
+        </div>
+        <!-- child div tag -->
+        <div class="classItem">
+            <!-- image tag -->
+            <img src="images/jason-blackeye-GPPAjJicemU-unsplash.jpg" height="200px" width="300px"/>
+        </div>
+        </div>
+    </section>
+    <!-- second section -->
+    <section class="secondSection">
+        <!-- h2 tag -->
+        <h2 class="headingTwo">Second section</h2>
+        <!--parent div tag -->
+        <div class="container1">
+            <!--child div tag -->
+            <div class="classItem1">
+                <!-- p tag -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sequi aut soluta quos nesciunt ullam culpa impedit cupiditate, inventore nostrum laboriosam ipsa ut voluptas harum. Dignissimos in mollitia qui maiores?</p>
+            </div>
+            <!--another child div -->
+            <div class="classItem1">
+                <!-- image tag -->
+                <img src="images/joshua-woroniecki-mrWrzVzH11Q-unsplash.jpg" height="200px" width="300px"/>
+            </div>
+            <!-- another child div tag -->
+            <div class="classItem1">
+                <!-- p tag -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci illum fugiat, sint vero illo ab reiciendis impedit odio magni voluptate repellendus cumque dolorem aliquam dolores expedita, pariatur et, aspernatur fugit.</p>
+            </div>
+        </div>
+    </section>
+    <!-- my third section -->
+    <section>
+        <!-- h3 tag -->
+        <h3 class="headingThree">Third section</h3>
+        <!--parent  div tag -->
+        <div class="container2">
+            <!-- child div tag -->
+            <div class="classItem2">
+                <!-- button tag -->
+                <button><a href="#">Submit</a></button>
+                <button><a href="#">Next</a></button>
+                <button><a href="#">Sign in</a></button>
+                <button><a href="#">Sign out</a></button>
+
+            </div>
+            <!-- another child tag -->
+            <div class="classItem2">
+                <!-- image tag -->
+                <img src="images/marek-piwnicki-oFu9stx-M9I-unsplash.jpg" height="200px" width="300px"/>
+
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
